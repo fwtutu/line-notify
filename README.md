@@ -15,13 +15,13 @@
 1. 下載這個專案到你的本地環境：
 
     ```bash
-    git clone https://github.com/your-username/line-notify-bot.git
+    git clone https://github.com/your-username/line-notify.git
     ```
 
 2. 進入專案目錄：
 
     ```bash
-    cd line-notify-bot
+    cd Line_Notify
     ```
 
 3. 安裝所需的依賴項：
