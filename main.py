@@ -1,4 +1,5 @@
 import requests
+import config
 
 def send_line_notify(message, token, image_url=None, image_path=None, sticker_package_id=None, sticker_id=None):
     url = "https://notify-api.line.me/api/notify"
@@ -28,7 +29,7 @@ def send_line_notify(message, token, image_url=None, image_path=None, sticker_pa
     return response.status_code
 
 if __name__ == "__main__":
-    token = "LXFuuXKMM3BLyxCY9z0k5iPavVhZanycLSJE2dOLwDz"  # 替換成你的LINE Notify Token
+    token = config.token
 
     # 1. 發送文字
     message = "Hello, this is a test message!"

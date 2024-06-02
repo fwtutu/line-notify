@@ -1,0 +1,1 @@
+token = "YOUR_LINE_NOTIFY_TOKEN"
