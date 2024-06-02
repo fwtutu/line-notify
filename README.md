@@ -52,4 +52,5 @@
     python Line_Notify.py
     ```
 
+![LineBot](https://github.com/fwtutu/line-notify/assets/171393477/1dd68b02-e659-4eb4-999f-0e5cf600061c)
 
